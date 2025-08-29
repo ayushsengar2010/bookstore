@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="500px" viewBox="0 0 600 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Library Hero</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEF2FF" offset="0%"></stop>
+            <stop stop-color="#E0E7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Library-Hero" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Background" fill="url(#linearGradient-1)" x="0" y="0" width="600" height="500" rx="20"></rect>
+        
+        <!-- Bookshelf -->
+        <rect id="Shelf" fill="#8B5A2B" x="50" y="150" width="500" height="20" rx="2"></rect>
+        <rect id="Shelf" fill="#8B5A2B" x="50" y="270" width="500" height="20" rx="2"></rect>
+        <rect id="Shelf" fill="#8B5A2B" x="50" y="390" width="500" height="20" rx="2"></rect>
+        
+        <!-- Books on top shelf -->
+        <rect id="Book1" fill="#3B82F6" x="60" y="80" width="30" height="70" rx="2"></rect>
+        <rect id="Book2" fill="#EF4444" x="95" y="90" width="25" height="60" rx="2"></rect>
+        <rect id="Book3" fill="#10B981" x="125" y="75" width="35" height="75" rx="2"></rect>
+        <rect id="Book4" fill="#F59E0B" x="165" y="85" width="30" height="65" rx="2"></rect>
+        <rect id="Book5" fill="#8B5CF6" x="200" y="90" width="25" height="60" rx="2"></rect>
+        <rect id="Book6" fill="#EC4899" x="230" y="80" width="30" height="70" rx="2"></rect>
+        <rect id="Book7" fill="#06B6D4" x="265" y="85" width="35" height="65" rx="2"></rect>
+        <rect id="Book8" fill="#84CC16" x="305" y="75" width="30" height="75" rx="2"></rect>
+        <rect id="Book9" fill="#6366F1" x="340" y="90" width="25" height="60" rx="2"></rect>
+        
+        <!-- Books on middle shelf -->
+        <rect id="Book10" fill="#F472B6" x="80" y="200" width="40" height="70" rx="2"></rect>
+        <rect id="Book11" fill="#2DD4BF" x="125" y="190" width="30" height="80" rx="2"></rect>
+        <rect id="Book12" fill="#FB923C" x="160" y="210" width="35" height="60" rx="2"></rect>
+        <rect id="Book13" fill="#4ADE80" x="200" y="195" width="25" height="75" rx="2"></rect>
+        <rect id="Book14" fill="#C084FC" x="230" y="205" width="40" height="65" rx="2"></rect>
+        <rect id="Book15" fill="#F87171" x="275" y="190" width="30" height="80" rx="2"></rect>
+        <rect id="Book16" fill="#38BDF8" x="310" y="200" width="35" height="70" rx="2"></rect>
+        
+        <!-- Books on bottom shelf -->
+        <rect id="Book17" fill="#A855F7" x="70" y="320" width="50" height="70" rx="2"></rect>
+        <rect id="Book18" fill="#34D399" x="125" y="330" width="40" height="60" rx="2"></rect>
+        <rect id="Book19" fill="#F43F5E" x="170" y="310" width="35" height="80" rx="2"></rect>
+        <rect id="Book20" fill="#3B82F6" x="210" y="325" width="45" height="65" rx="2"></rect>
+        <rect id="Book21" fill="#FBBF24" x="260" y="315" width="30" height="75" rx="2"></rect>
+        <rect id="Book22" fill="#6366F1" x="295" y="320" width="35" height="70" rx="2"></rect>
+        <rect id="Book23" fill="#EC4899" x="335" y="330" width="40" height="60" rx="2"></rect>
+        
+        <!-- Tablet showing a book -->
+        <rect id="Tablet" fill="#1F2937" x="380" y="170" width="150" height="200" rx="10"></rect>
+        <rect id="TabletScreen" fill="#F3F4F6" x="390" y="180" width="130" height="180" rx="5"></rect>
+        <rect id="EbookPage" fill="#FFFFFF" x="400" y="190" width="110" height="160" rx="2"></rect>
+        
+        <!-- Text lines on ebook -->
+        <rect id="Line1" fill="#94A3B8" x="410" y="210" width="90" height="2" rx="1"></rect>
+        <rect id="Line2" fill="#94A3B8" x="410" y="220" width="80" height="2" rx="1"></rect>
+        <rect id="Line3" fill="#94A3B8" x="410" y="230" width="90" height="2" rx="1"></rect>
+        <rect id="Line4" fill="#94A3B8" x="410" y="240" width="70" height="2" rx="1"></rect>
+        <rect id="Line5" fill="#94A3B8" x="410" y="250" width="85" height="2" rx="1"></rect>
+        <rect id="Line6" fill="#94A3B8" x="410" y="260" width="90" height="2" rx="1"></rect>
+        <rect id="Line7" fill="#94A3B8" x="410" y="270" width="75" height="2" rx="1"></rect>
+        <rect id="Line8" fill="#94A3B8" x="410" y="280" width="85" height="2" rx="1"></rect>
+        <rect id="Line9" fill="#94A3B8" x="410" y="290" width="90" height="2" rx="1"></rect>
+        <rect id="Line10" fill="#94A3B8" x="410" y="300" width="80" height="2" rx="1"></rect>
+        <rect id="Line11" fill="#94A3B8" x="410" y="310" width="85" height="2" rx="1"></rect>
+        <rect id="Line12" fill="#94A3B8" x="410" y="320" width="70" height="2" rx="1"></rect>
+        
+        <!-- Title -->
+        <text id="Digital-Library" font-family="Arial-BoldMT, Arial" font-size="36" font-weight="bold" fill="#1E40AF">
+            <tspan x="150" y="50">Digital Library</tspan>
+        </text>
+    </g>
+</svg>
