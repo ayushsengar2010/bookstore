@@ -24,9 +24,11 @@ export const useToast = () => {
 
 export const ToastProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [toasts, setToasts] = useState<Toast[]>([]);
+  const [counter, setCounter] = useState(0);
 
   const showToast = (message: string, type: 'success' | 'error' | 'info' = 'success') => {
-    const id = Date.now();
+    const id = Date.now() * 1000 + counter;
+    setCounter((prev) => (prev + 1) % 1000); // Reset counter after 999 to prevent overflow
     setToasts((prevToasts) => [...prevToasts, { id, message, type }]);
     
     // Remove toast after 3 seconds
